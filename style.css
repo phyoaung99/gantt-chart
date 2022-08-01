@@ -1,0 +1,35 @@
+@import "https://code.highcharts.com/css/highcharts.css";
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* .highcharts-label-icon{
+ fill: aqua;
+ cursor: pointer;
+ transform: rotate(180deg) translate(90,175);
+} */
+
+path{
+  transform:translate(100,171) rotate(180deg) ;
+}
+
+.highcharts-axis-labels {
+  position: relative;
+  font-size: 30px;
+  fill: #7cb5ec;
+  stroke: #7cb5ec;
+}
+/* .highcharts-treegrid-node-expanded{
+  
+} */
+/* .highcharts-treegrid-node-level-1::after {
+  position: absolute;
+  content: '';
+  background: url('./icon.jpg');
+  left: 20;
+  top: -30;
+} */
+.text{
+  border-radius: 1px solid black;
+  padding: 10px;
+}
